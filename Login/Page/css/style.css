@@ -1,0 +1,49 @@
+#header {
+  min-height: 90px;
+  background-color: #49096D;
+}
+#nav {
+  display: none;
+  background-color: #333;
+  margin: 0;
+  float: left;
+  width: 40%;
+}
+#nav li {
+  list-style: none;
+  float: left;
+  padding: 1em;
+  width: 100%;
+}
+#nav a {
+  color: white;
+  text-decoration: none;
+}
+#menu-button {
+  color: yellow;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: inline;
+  height: 20px;
+  width: 20px;
+  margin-right: 1em;
+  cursor: pointer;
+}
+@media screen and (min-width: 700px) {
+  #menu-button {
+    display: none;
+  }
+  #nav {
+    display: block;
+    background-color: #49096D;
+    width: 100%;
+    margin-top: 1em;
+  }
+  #nav li {
+    padding: 1em 2em;
+    width: auto;
+    color: white;
+  }
+}
+
