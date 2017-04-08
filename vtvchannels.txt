@@ -1,6 +1,28 @@
-name= VTV1 HD url= "http://123.30.191.202/hls/vtv1.m3u8" logo= "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAAB9CAMAAABpsA0LAAABKVBMVEX////cAAAAlgAAAJbaAAAAlAD96+vpZma227YrpCvJ6ckAAJAAkADQ6dAGnQbXAAD7xcfExOTpAADu+e4XF56t2a0AigBqwGrhAADTxcX7+Pjv7/kAAIv+9PT5+f1twG3QAADBMDHeJyfzpKTfICDeVlbi4vP50tLy3N3T0+3qcHDkNjbiPDz5/fns7Pjk8+TvjIysrN7cEBDzrq6EhMqZmdN4eMXuHB3xnZ1qar+SktPyqqrlVFT1vr73ysroRDq5ueBRUbAhIZpHR6rZ2fDgsK7jz8c1NafnxsDv3t7joprZPTzlf4rrgYH2AABubrlMsEwwMKIsLKjdZGe+Gh+Tz5PLiYNOTrOvr9xhYbl+w37wR05BQa3wk5PjwMHq6eaqWVZVt1XnenRK/mA3AAAJMklEQVR4nO2cbVcaORSAMzhgdayDVNtZBGQRAQXUquBLhRXb7euyrd26ta7Wrf//R2wywrwmN8kww+7Zk+ccv2Uk83CTe5PJgJBCoVAoFAqFQqFQKBQKhUKhUCj+w2QYFKNfmsnkx03aTyAEulfa3l71UhozwS3TqO/OMtjazYJXFnvMS2dnh3W7zc7l9doDz2isXa9wXJSuuscuXQ8HnVqgP43vD7y+y9P/GUS/qbPRepCHIXClrldtD3MLPD7tQN1b7c4YTD5vepu+G1YOH6j+/VraQ3FL19jozTr70l3gQoxJ2swtpDiknz5rA/3rzBgzTApfvcNj1jLLpom/AjP35acIIuDbuWdOFA0LUqhpJCJWuB6widQlu3uv3gAesKNVt2kvp+mmjk2YZe1neRF5zvdaYQ6OIexBf0EGRpovIpWee8zsXhfyMFMYuBHR+Ktsaib+XDOaCNRowSZOM/TrelX4uo0ial+LeMAmnrEmzCVIA2bJaXm3ldM1S7MsDQ8NK4oItG7Cd7ROvYo3pKp9hB4JaQAGx+q3AqTBOHADolctYwU4IPTIIopNMMb1JnWW4AUEnlvaP8QCAptYpGeOq2UwHm7cpJHZsNx8FVEEegHfEhnsYXuz8EUVnG1WRD2kUgtrtMxR+wbOEMaJGxDr9piYUAScQTW91Qhfs8+Rd4srykVhD3hwrFA61gHjwXjp1lOZQ9NOnJOJQNkKfFu3oTot34SvqOIr1gRSp2viUzhz1MDUOVN47v0qYxFR5GTCVqiq4owmbR+h+TkJD5jr0OA4gAfGjTMw8uu+gIguAtU5IbEbCInMKTyYZovoyZr4DGGHxOKjQKdeQTUl5spp+bZiLwdiEIFuwRSqk1zo5Qj2RpqvyMUDni8X/cVE6RhOnV2nqMSZvIw7GYuITIXzFfta1zk12DAvWFP6TVz7PuTsHIyHC7eW6h2aroQJRaB1+NY0b0jkb+G2ZKEmWFN6Sc/Nez5k+xieIdxa6q6l4fVFXCIyG3BIbHmqqgY8o5g4de5Ia0gFKu0zuJa6cGqp9q5VJuusmETwKsW9fbcpXEvpFdxEuKb041ba2y/h1NlxWvYPy75wmFRE8R68PW3WWXvVLbhlL8JMOQoJdxl6AsaDceGZKc2yN2PoZJRMIgL14YB3QiIP16EaHkQ7EQMilf4x+pDaMjxDuLUUXmz5AsJWMpEINIRT6Hg53oOFVbMIXUbTgEWkR5X2CZw6v22PO505tcqBlIH/chOJyFTh+fL2odUsHBC7eKaUWGQEGG1gLsGp8/xs3Of2PfHgTxm42p5MBKdM0it2SOzvga3IAi3qwCAiUqS+XP0IDwynlmq/z5mBGoKomFQEr3DetduAHsx1hB7zbvYpk4XUGokIzjbEuVNLva1aZjBlxCCC921XcFU1BFvoVVxucBYZC3OXK0zmSSWx+RlOnQfj/ubvc4FSKiYRnI0JrdnjLDI0PFO2P4Ei0vBjDLzGWIIXW8ayM1PWm+FxEYsI7sYEB7v+3IFF2DswtSUmZx85i07DqaXu7q2kROThFMqjSVYkjznLLTwbbg6WmYASiIeBsy91m9PC4yIeEaihwYMDZki2Leb5Ip7D3zkswqml3v1u0TTEIwLdTiDig51fBURwFlSgh4/jGSK/laPGQ0wiGnAKhTAfdrsFRGzDdQLE+dmoo+1fDwNrjHhFoBdwCmWjt/KiIhBn04VNoTvehnj9i2USD5SoiEdEhvPAgs3oIamIiNJHcC3BxJgZb0OUfsuVNbNc1hMpqGwiplB9WBQXgWrRAsJwaqm3h7mcZWlWzqJkjnhEFO8jpdDWeDNPSAQ6iTJLGDevxr18v9dqfWiRv3JooogpIlA9UkQ4O/5iImrwDhSDjrNRmWk88K5xVA2aiEsE7+ADDc9jQTER6HmEgBjUKL3FRWBCEYEaH6RN6O6WpqAIzlKbxvkZtbv9XFIi0LpsCtVP3UdhgiJ4my9hCser1N72LTMpEfJVled8kaiIUlc2hS5RO4uywQwanwjuKZBgQAw9Tz1ERcim0EKX0dmsHnzQFZ8I3sZEAN/TcmERqCMzSxhvNsP9fBBhhtJGbCLkUqh55H1YLi6iNpAx0WGdOM4Gty1jjAiEZELCf6JGXARvb9IXEC9fBbs4HRGNlrAJ038SU0KERApdfo5YJCsCHYkW2t7UKSlCPIUW3Ec6NBGJZQ0kkUKrgRP8MiJKB4Ip1Dhj9zQkIs7JEglvTPhSp6wInEKFBkdhAHQ04aGBipxneyM+BA+aSYkQS6HGOaOWGotIcmjg0lXEw95R8DI5EWIp9AR6WScb3KWKW4RICtXDR9blRKAr/nxp3LBqqSmJqMMnzAhm+CUGSRGcs1K2iE7oQ6YrgndoLHTazkZSBNq84Hn4StuGcEl6skQkhXJEVPrhi2RFlOBDIVjEVfhDvCQ+WSJ+Cg2eyCXIiuAeE/rKea1xGiI4JyZCqZMgLQJOocbMGaeT0xABp9A96rs98iK2odcyjC7vPdfQZKklIAIBVZW+QX3bS14Egh58MbchHKYSEdC5fZ3+mnAEEcAq1ABrKZuACJxCkhCRZ54VoqVOQgQR7FUoe1/KJSjCTEQEM4XqFcY7wlFEMM9VGuxtCIfQHJGMCObe/i2jfSQR2/TzY8YNfQffx3TmCGYKPaW88WYTSQTjPTZeLWUzLRFonyaCnjoJ0URQU6jxTSAgpieClkLJW1sMoolAtBR6wZ8p0TRF0M7tUxYZIyKKWKW803cg9Jsh0xMRTqH6Frt1RBFo83OE1ElIfhnuEHqZDfp5jagiQim0cCLWuymKCKXQ0P6ch8giVv0p1PgsMlOi6YoIpFD6ImNEZBHBsyMCtZRN0tv5PnpeD1XoF3gmEOFbchgD9iMdP05EjPepEll9jvH8AIvOLCFsOCLSbBHeLW3Ohq2XrDYKCVfEZO90wayPc2gFmiAwT8DT+enFeeDa2vFYxID5zDdE1iI/FeBB13NfvgtfLk1/SGbM6j27ghgxP7fIZu4S/P2tUmdANNx0RMcFJtMsWzk/5T8FflQtMsV6v9evC3zCzmMA6DenCLXNpaVNeNs6SH93w88f7++k/sH/h3yAf7s/CoVCoVAoFAqFQqFQKBQKhUKhUCgUCoViivwD3u4/yFqjPCUAAAAASUVORK5CYII="
-name= VTV2 HD url="http://123.30.191.202/hls/vtv2.m3u8" logo="http://vignette2.wikia.nocookie.net/logopedia/images/2/2b/Vtv2.png/revision/latest?cb=20160209174642"
-name= VTV3 HD url="http://123.30.191.202/hls/vtv3.m3u8" logo="http://s19.postimg.org/9pyyi18wj/VTV2.png"
-name= VTV4 url="http://m.xemtivi4k.com/stream-vtv/vtv4.m3u8" logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/Logo_VTV4.png"
-name= VTV6 url="http://m.xemtivi4k.com/stream-vtv/vtv6.m3u8" logo="http://img.hplus.com.vn/460x260/poster/2015/06/24/480983-VTV6-SD.png"
-name= VTV8 HD url="http://znzjssjl.cdnviet.com/pnwjyhx/_definst_/livestream/chunklist.m3u8" logo="http://vignette3.wikia.nocookie.net/logopedia/images/b/b8/VTV8_Logo.png/revision/latest?cb=20160116125609"
+name= VTV1 HD url= "http://123.30.191.202/hls/vtv1.m3u8" logo= "http://vignette2.wikia.nocookie.net/logopedia/images/1/17/VTV1_2013.png/revision/latest?cb=20160209174105"
+name= VTV2 HD url= "http://123.30.191.202/hls/vtv2.m3u8" logo= "http://s19.postimg.org/9pyyi18wj/VTV2.png"
+name= VTV3 HD url= "http://123.30.191.202/hls/vtv3.m3u8" logo= "http://vignette4.wikia.nocookie.net/logopedia/images/8/8c/Vtv3.png/revision/latest?cb=20121202080059"
+name= VTV4 url= "http://m.xemtivi4k.com/stream-vtv/vtv4.m3u8" logo= "https://upload.wikimedia.org/wikipedia/commons/b/b9/Logo_VTV4.png"
+name= VTV6 url= "http://m.xemtivi4k.com/stream-vtv/vtv6.m3u8" logo= "http://img.hplus.com.vn/460x260/poster/2015/06/24/480983-VTV6-SD.png"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
