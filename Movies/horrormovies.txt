@@ -1,2 +1,1 @@
 name=The Bye Bye Man (2017)  url= "https://ia601507.us.archive.org/27/items/MoviesCounter.The.Bye.Bye.Man.2016.720p/MoviesCounter.The.Bye.Bye.Man.2016.720p.ogv" logo= "http://t3.gstatic.com/images?q=tbn:ANd9GcQWmgPDtAZeEsK-b9SjOmHDp-ilqtQRqTthl4m_fFUcE_0kqktm"
-name=  url= "" logo= ""
