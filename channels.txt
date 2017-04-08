@@ -1,1 +1,1 @@
-name= VTV3 url= "http://123.30.191.202/hls/vtv3.m3u8" logo= "http://vignette2.wikia.nocookie.net/logopedia/images/6/6e/Vtv3_logo.png/revision/20150923122239"
+name= VTV3 url= "blob:http://www.dailymotion.com/03250ecc-36ac-4fa8-8da0-3f8b420c7d91" logo= "http://vignette2.wikia.nocookie.net/logopedia/images/6/6e/Vtv3_logo.png/revision/20150923122239"
