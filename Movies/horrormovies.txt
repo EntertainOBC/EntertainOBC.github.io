@@ -1,3 +1,4 @@
 name= The Bye Bye Man (2017)  url= "https://ia601507.us.archive.org/27/items/MoviesCounter.The.Bye.Bye.Man.2016.720p/MoviesCounter.The.Bye.Bye.Man.2016.720p.ogv" logo= "http://t3.gstatic.com/images?q=tbn:ANd9GcQWmgPDtAZeEsK-b9SjOmHDp-ilqtQRqTthl4m_fFUcE_0kqktm"
 name= Don't Hang Up (2016)  url= "https://ia801506.us.archive.org/10/items/videoplayback_201704/dont_hang_up.mp4" logo= "http://t1.gstatic.com/images?q=tbn:ANd9GcQsQnekB2JmCsrPWm4Bst5dLE_qRhQyAVBYBgYLibRjdfp-gtm3"
 name= Don't Breathe (2016) url= "https://ia601501.us.archive.org/15/items/videoplayback_20170331/videoplayback.mp4" logo= "http://t3.gstatic.com/images?q=tbn:ANd9GcQFAj-BDS1FtdmJimAf6iUZ29--whJ4pn6d_vvV6M2fW3y_6gt-"
+name= Peelers (2016) url= "http://download941.mediafireuserdownload.com/iaxhaf2f1jkg/ank1jk3nanbg3b1/Peelers.mp4" logo= "http://www.gstatic.com/tv/thumb/movieposters/13369468/p13369468_p_v8_aa.jpg"
