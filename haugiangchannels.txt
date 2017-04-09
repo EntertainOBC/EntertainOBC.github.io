@@ -1,1 +1,25 @@
-name= HAU GIANG url= "http://123.30.110.170:1939/thhg/thhg" icon= "https://upload.wikimedia.org/wikipedia/vi/3/3a/Cong-chao-Hau-Giang.jpg"
+name= Hau Giang url= "http://123.30.110.170:1939/thhg/thhg" logo= "https://upload.wikimedia.org/wikipedia/vi/3/3a/Cong-chao-Hau-Giang.jpg"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
