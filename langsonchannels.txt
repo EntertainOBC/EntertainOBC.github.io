@@ -1,1 +1,1 @@
-name=Lang Son url= "rtmp://123.18.206.40:1935/live/livestream" icon= "http://media.crossingtravel.com/files/vu.thuy/2016/11/22/buckwheat-flower-8-1123.jpg"
+name= Lang Son url= "rtmp://123.18.206.40:1935/live/livestream" icon= "http://media.crossingtravel.com/files/vu.thuy/2016/11/22/buckwheat-flower-8-1123.jpg"
