@@ -1,0 +1,73 @@
+<html>
+<head>
+	<link rel="stylesheet" href="http://bradenhamm.com/store/SlickNav/slicknav.css" />
+	<link rel="stylesheet" type="text/css" href="global.css">
+	<link rel="stylesheet" href="http://bradenhamm.com/store/popup.css"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	#open-popup {padding:20px}
+	/*.white-popup {
+	  position: relative;
+	  background: #FFF;
+	  padding: 40px;
+	  width: auto;
+	  max-width: 200px;
+	  margin: 20px auto;
+	  text-align: center;
+	}*/
+	.white-popup {
+	  position: relative;
+	  background: #FFF;
+	  padding: 40px;
+	  width: auto;
+	  max-width: 600px;
+	  margin: 20px auto;
+	  text-align: center;
+	}
+	
+	</style>
+</head>
+<body>
+	
+		  
+		<div class="row">
+		    <div class="column full">column full<br />
+				<a href="#test-popup" class="open-popup-link">popup example</a>
+			</div>
+		  </div>
+
+		  <div id="test-popup" class="white-popup mfp-hide">
+			  <h1>Here is a title</h1>
+			  <header>THE USERNAME AND PASSWORD IS!</header>
+			  <p>dimitrology</p>
+			 
+		  </div>
+  
+		<script>
+  		$(document).ready(function(){
+
+		});
+	</script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+	  $('.open-popup-link').magnificPopup({ 
+	    type: 'inline',
+  	  	midClick: true,
+		// Delay in milliseconds before popup is removed
+		removalDelay: 300,
+		// Class that is added to popup wrapper and background
+		// make it unique to apply your CSS animations just to this exact popup
+		mainClass: 'mfp-fade'
+	  	// other options
+	  });
+  });
+  </script>
+
+  <script src="http://bradenhamm.com/store/SlickNav/jquery.slicknav.js"></script>
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  		$('#menu').slicknav();
+  	});
+  </script>
+</body>
+</html>
