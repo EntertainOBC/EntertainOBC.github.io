@@ -1,3 +1,3 @@
-name= IF YOU ENJOY PLEASE FOLLOW US ON TWITTER (ENTERTAINOBC COMPANY) url= "#" logo= "http://p6cdn4static.sharpschool.com/UserFiles/Servers/Server_2586389/Image/News/images.png"
+name= FOLLOW US ON TWITTER (ENTERTAINOBC COMPANY) url= "#" logo= "http://p6cdn4static.sharpschool.com/UserFiles/Servers/Server_2586389/Image/News/images.png"
 name= Agent (2017) Server 2 url= "https://ia601507.us.archive.org/4/items/Agent2017/Agent%20(2017).mp4" logo= "https://images-na.ssl-images-amazon.com/images/M/MV5BN2VlNzllMDAtNzY4NS00ODkwLTg0ODktOTAxNmJlMjgzZWM1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTcyNTM5NDA@._V1_UX182_CR0,0,182,268_AL_.jpg"
 name= Captain America Civil War (2016) Server 3 url= "https://ia601501.us.archive.org/35/items/CaptainAmerica2016CivilWar_201704/Captain%20America%20(2016)%20Civil%20War.mp4" logo= "http://t3.gstatic.com/images?q=tbn:ANd9GcTz1xU3qYlGXViIS51HIQh71D339ceW2nlWnb8zzSaJAL0newVj"
