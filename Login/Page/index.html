@@ -1,79 +1,40 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, maximum-scale=1">
-<title>Homepage</title>
-<link rel="icon" href="http://etc.usf.edu/presentations/extras/letters/varsity_letters/11/17/E-400.png" type="image/png">
-<link href="css/style.css" rel="stylesheet" type="text/css">
-
-<!-- =======================================================
-    Theme Name: Butterfly
-    Theme URL: https://bootstrapmade.com/butterfly-free-bootstrap-theme/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-======================================================= -->
-
-<script type="text/javascript" src="js/js.js"></script>
-
-<div class="wrapper">
-    <h1>Project Name <span>[ID001]</span></h1>
-  <section class="psummary">
-    <div class="psummary-left">
-      <p><span class="entypo-attention"></span>Status</p>
-      <p>Development</p>
-      <p><span class="entypo-hourglass"></span> Priority</p>
-      <p>Urgent</p>
-    </div>
-    <div class="psummary-right">
-      <p><span class="entypo-chart-line"></span> Progress</p>
-      <div class="progress">
-        <!-- Very easy to feed via PHP through the field value -->
-        <progress max="100" value="70"></progress>
-      <span>70%</span></div>
-    </div>
-  </section>
-  <section class="pcontent-l">
-    <div class="info">
-<div class="tabs" data-tabgroup="tab-group">
-        <div class="active"><a href="#information">Information</a></div>
-        <div><a href="#evaluation">Evaluation</a></div>
-        <div><a href="#client">Client</a></div>
-        <div><a href="#requeriments">Requeriments</a></div>
-        <div><a href="#files">Files</a></div>
-        <div><a href="#server">Server</a></div>
-      </div>
-      <section id="tab-group" class="tabgroup">
-  <div id="information">
-    <h2>Heading 1</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla deserunt consectetur ratione id tempore laborum laudantium facilis reprehenderit beatae dolores ipsum nesciunt alias iusto dicta eius itaque blanditiis modi velit.</p>
-  </div>
-  <div id="evaluation">
-    <h2>Heading 2</h2>
-    <p>Adipisci autem obcaecati velit natus quos beatae explicabo at tempora minima voluptates deserunt eum consectetur reiciendis placeat dolorem repellat in nam asperiores impedit voluptas iure repellendus unde eveniet accusamus ex.</p>
-  </div>
-  <div id="client">
-    <h2>Heading 3</h2>
-    <p>Atque ratione soluta laboriosam illo inventore amet ipsum aliquam assumenda harum provident nam accusantium neque debitis obcaecati maxime officia saepe ad ducimus in quam libero vero quasi. Saepe sit nisi?</p>
-  </div>
-  <div id="requeriments">
-    <h2>Heading 4</h2>
-    <p>Quidem perferendis id sapiente cumque ullam repellendus dolorum odit rerum quibusdam tempora voluptatibus ipsum. Maiores laborum velit aperiam dicta quisquam assumenda at esse exercitationem culpa sequi porro minus ipsa aut.</p>
-  </div>
-  </div>
-</section>
-    </div>
-    </div>
-  </section>
-  <aside class="pcontent-r">
-    <div class="history">
-      <h3>Project History</h3>
-    </div>
-    <div class="team">
-      <h3>Team</h3>
-    </div>
-  </aside>
-</div> <!-- END Wrapper -->
-  <footer>
-   <p><i class="fa fa-coffee"></i> Coded & Designed by EntertainOBC Company</p> 
-</footer>
+.panel-container
+  .panel-controls(data-bind="css: {collapsed: collapsedNav}")
+    ul
+      li.nav-control(data-bind="click: collapse.bind($data)")
+        a
+          i.fa.fa-bars
+      li(data-bind="css: {active: displayTab() === 'users'}, click: changeTab.bind($data, 'users')")
+        a
+          i.fa.fa-users
+          span.label Users
+          i.fa.fa-caret-left.caret
+      li(data-bind="css: {active: displayTab() === 'documents'}, click: changeTab.bind($data, 'documents')")
+        a
+          i.fa.fa-archive
+          span.label Documents
+          i.fa.fa-caret-left.caret   
+      li(data-bind="css: {active: displayTab() === 'pins'}, click: changeTab.bind($data, 'pins')")
+        a
+          i.fa.fa-thumb-tack
+          span.label Pinned Docs
+          i.fa.fa-caret-left.caret
+      // li.nav-control
+           a
+             i.fa.fa-sign-out
+  section.panel-content(data-bind="css: {collapsed: collapsedNav}")
+    .main-wrapper
+      #users.widget(data-bind="visible: displayTab() === 'users'")
+        span How To Install Kodi On Android Devices
+        span : 1.
+      #documents.widget(data-bind="visible: displayTab() === 'documents'")
+        #collections
+          .collection
+            .collection-info
+              .title
+                span Collection Name
+              .detail
+                span January 28, 2014
+            .collection-controls
+      #pins.widget(data-bind="visible: displayTab() === 'pins'")
+        span Pins
