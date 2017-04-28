@@ -45,7 +45,7 @@ from utils import MODES
 from utils import SUB_TYPES
 import gui_utils
 
-_1CH = Addon('plugin.video.1channel', sys.argv)
+_1CH = Addon('plugin.video.EntertainOBCMovies', sys.argv)
 META_ON = _1CH.get_setting('use-meta') == 'true'
 FANART_ON = _1CH.get_setting('enable-fanart') == 'true'
 USE_POSTERS = _1CH.get_setting('use-posters') == 'true'
@@ -654,7 +654,7 @@ def AddonMenu():  # homescreen
     db_connection.init_database()
     fix_urls()
     if utils.has_upgraded():
-        adn = xbmcaddon.Addon('plugin.video.1channel')
+        adn = xbmcaddon.Addon('plugin.video.EntertainOBCMovies')
         adn.setSetting('domain', 'http://www.primewire.ag')
         adn.setSetting('old_version', _1CH.get_version())
     _1CH.add_directory({'mode': MODES.LIST_MENU, 'section': 'movie'}, {'title': i18n('movies')}, img=art('movies.png'),

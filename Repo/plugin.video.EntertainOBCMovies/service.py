@@ -23,7 +23,7 @@ import utils
 from utils import MODES
 from db_utils import DB_Connection
 
-ADDON = xbmcaddon.Addon(id='plugin.video.1channel')
+ADDON = xbmcaddon.Addon(id='plugin.video.EntertainOBCMovies')
 utils.log('Service: Installed Version: %s' % (ADDON.getAddonInfo('version')))
 
 db_connection = DB_Connection()

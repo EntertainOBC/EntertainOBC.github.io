@@ -23,7 +23,7 @@ from pw_scraper import PW_Scraper
 from addon.common.addon import Addon
 import utils
 
-_1CH = Addon('plugin.video.1channel')
+_1CH = Addon('plugin.video.EntertainOBCMovies')
 pw_scraper = PW_Scraper(_1CH.get_setting("username"), _1CH.get_setting("passwd"))
 
 def get_adv_search_query(section):

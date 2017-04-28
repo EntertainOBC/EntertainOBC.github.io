@@ -32,7 +32,7 @@ import strings
 DAY_NUMS = list('0123456')
 DAY_CODES = ['M', 'T', 'W', 'H', 'F', 'Sa', 'Su']
 
-_1CH = Addon('plugin.video.1channel')
+_1CH = Addon('plugin.video.EntertainOBCMovies')
 ICON_PATH = os.path.join(_1CH.get_path(), 'icon.png')
 BR_VERS = [
     ['%s.0' % i for i in xrange(18, 47)],
@@ -454,7 +454,7 @@ def do_startup_task(task):
     if run_on_startup and not xbmc.abortRequested:
         log('Service: Running startup task [%s]' % (task))
         now = datetime.datetime.now()
-        xbmc.executebuiltin('RunPlugin(plugin://plugin.video.1channel/?mode=%s)' % (task))
+        xbmc.executebuiltin('RunPlugin(plugin://plugin.video.EntertainOBCMovies/?mode=%s)' % (task))
         _1CH.set_setting('%s-last_run' % (task), now.strftime("%Y-%m-%d %H:%M:%S.%f"))
 
 # Run a recurring scheduled task. Settings and mode values must match task name
@@ -469,7 +469,7 @@ def do_scheduled_task(task, isPlaying):
                 during_playback = _1CH.get_setting('%s-during-playback' % (task)) == 'true'
                 if during_playback or not isPlaying:
                     log('Service: Running Scheduled Task: [%s]' % (task))
-                    builtin = 'RunPlugin(plugin://plugin.video.1channel/?mode=%s)' % (task)
+                    builtin = 'RunPlugin(plugin://plugin.video.EntertainOBCMovies/?mode=%s)' % (task)
                     xbmc.executebuiltin(builtin)
                     _1CH.set_setting('%s-last_run' % task, now.strftime("%Y-%m-%d %H:%M:%S.%f"))
                 else:

@@ -33,7 +33,7 @@ from addon.common.addon import Addon
 from db_utils import DB_Connection
 
 USER_AGENT = utils.get_ua()
-_1CH = Addon('plugin.video.1channel')
+_1CH = Addon('plugin.video.EntertainOBCMovies')
 ADDON_PATH = _1CH.get_path()
 ICON_PATH = os.path.join(ADDON_PATH, 'icon.png')
 MAX_RETRIES = 2
