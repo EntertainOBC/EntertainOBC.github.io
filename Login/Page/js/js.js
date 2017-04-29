@@ -1,49 +1,55 @@
-//Javascript
+$(document).ready(function() {
 
-var panel = document.getElementById('panel');
-var body = document.getElementById('body');
-var menu = document.getElementById('show_Menu');
+  var users = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "brianamarie132", "storbeck", "terakilobyte", "habathcx", "RobotCaleb", "thomasballinger", "noobs2ninjas", "beohoff", "brunofin", "comster404"];
 
-function show(){
-	panel.style.transition = "all .4s linear";
-	panel.style.marginLeft = "-20vw";
-	body.style.background = "#fff";
-	body.style.width = "100vw";
+  // Display the Twitch.TV stream status for each user
+  for (var i = 0; i < users.length; i++) {
+    showStatus(users[i]);
+  }
+  
+  $('#all').click(function() {
+    $('.online').show();
+    $('.offline').show();
+  });
+  
+  $("#on").click(function() {
+      $('.offline').hide();
+      $('.online').show();
+  });
 
+  $("#off").click(function() {
+      $('.online').hide();
+      $('.offline').show();
+  });
+});
+
+function showStatus(username) {
+
+  $.getJSON('https://api.twitch.tv/kraken/streams/' + username + '?callback?', function(data) {
+    if (data.stream) {
+      $('.media-list').append(
+        '<li class="media online"><div class="media-left"><a href="' + data.stream.channel.url +
+        '" target="_blank"><img class="media-object" src="' + data.stream.channel.logo +
+        '" alt="?"></a></div><div class="media-body"><a href="' + data.stream.channel.url +
+        '" target="_blank"><p class="media-heading">' + data.stream.channel.display_name +
+        '</p></a><p class="media-status">' + data.stream.channel.status +
+        '</p></li>');
+    } else {
+      $.getJSON(data._links.channel, function(channel) {
+        if(channel.logo == null) {
+          channel.logo = 'http://placehold.it/75?text=?';
+        }
+        $('.media-list').append(
+          '<li class="media offline"><div class="media-left"><a href="' + channel.url +
+          '" target="_blank"><img class="media-object" src="' + channel.logo +
+          '" alt="?"></a></div><div class="media-body"><a href="' + channel.url +
+          '" target="_blank"><p class="media-heading">' + channel.display_name +
+          '</p></a><p class="media-status"><em>Offline</em></p></li>');
+      });
+    }
+  }).fail(function() {
+    $('.media-list').append(
+      '<li class="media offline"><div class="media-left"><img class="media-object" src="http://placehold.it/75?text=?" alt="?"></div><div class="media-body"><p class="media-heading">' + username +
+      '</p></a><p class="media-status"><em>Account closed</em></p></li>');
+  });
 }
-
-function show_Menu(){
-	panel.style.width = "20vw";
-	body.style.width = "80vw";
-	panel.style.marginLeft = "0vw";
-	panel.style.visibility = "visible";
-	panel.style.transition = "all .4s linear";
-}
-
-/*Modify
-//Javascript
-
-var panel = document.getElementById('panel');
-var body = document.getElementById('body');
-var menu = document.getElementById('show_Menu');
-
-function show(){
-	panel.style.transition = "all .4s linear";
-  body.style.transition = "all .4s linear";
-	panel.style.marginLeft = "-20vw";
-	body.style.background = "#fff";
-	body.style.width = "100vw";
-  body.style.margin = "0";
-
-}
-
-function show_Menu(){
-	panel.style.width = "20vw";
-	body.style.width = "80vw";
-  body.style.marginLeft = "20vw";
-	panel.style.marginLeft = "0vw";
-	panel.style.visibility = "visible";
-	panel.style.transition = "all .4s linear";
-  body.style.transition = "all .4s linear";
-}
-*/
