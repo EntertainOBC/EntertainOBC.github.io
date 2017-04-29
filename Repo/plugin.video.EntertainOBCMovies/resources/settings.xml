@@ -17,6 +17,7 @@
 	</category>
 
 	<category label="30808">
+		<setting id="theme" type="enum" label="30809" values="Classic|Glossy Black|PrimeWire|Firestorm" default="0" enable="System.HasAddon(script.1channel.themepak)"/>
         <setting id="playlist-sort" type="enum" label="30810" lvalues="30811|30812|30813" default="0"/>
         <setting type="sep"/>
         <setting id="auto-view" type="bool" label="30814" default="false"/>
