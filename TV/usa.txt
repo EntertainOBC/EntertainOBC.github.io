@@ -1,1 +1,1 @@
-name= Something Channel Plz url= "http://stream-full.selfip.com:8000/live/riad/riad/391.ts" logo= "#"
+name= Something Channel Plz url= "http://stream-full.selfip.com:8000/live/riad/riad/391.ts" logo= "http://combiboilersleeds.com/image.php?pic=/images/something/something-0.jpg"
