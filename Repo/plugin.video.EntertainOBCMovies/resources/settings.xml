@@ -1,17 +1,3 @@
-<!-- 
-# EntertainOBC Movies Is A Free Program : you can redistribute it and/or modify
-#     it under the terms of the GNU General Public License as published by
-#     the Free Software Foundation, either version 3 of the License, or
-#     (at your option) any later version.
-
-#     This program is distributed in the hope that it will be useful,
-#     but WITHOUT ANY WARRANTY; without even the implied warranty of
-#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#     GNU General Public License for more details.
-
-#     You should have received a copy of the GNU General Public License
-#     along with this program.  If not, see <http://www.gnu.org/licenses/>. -->
-
 <settings>
 	<category label="30800">
         <setting id="domain" type="labelenum" label="30801" values="www.primewire.ag|www.primewire.org|www.primewire.is" default="www.primewire.ag"/>
@@ -31,7 +17,7 @@
 	</category>
 
 	<category label="30808">
-		<setting id="theme" type="enum" label="30809" values="Classic|Glossy Black|PrimeWire|Firestorm" default="0" enable="System.HasAddon(script.1channel.themepak)"/>
+        <setting id="theme" type="enum" label="30809" values="Classic|Glossy Black|PrimeWire|Firestorm" default="0" enable="System.HasAddon(script.1channel.themepak)"/>
         <setting id="playlist-sort" type="enum" label="30810" lvalues="30811|30812|30813" default="0"/>
         <setting type="sep"/>
         <setting id="auto-view" type="bool" label="30814" default="false"/>
