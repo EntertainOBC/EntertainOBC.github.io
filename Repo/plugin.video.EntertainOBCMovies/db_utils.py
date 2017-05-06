@@ -1,7 +1,6 @@
-
- """
-    EntertainOBC Movies Addon
-    Copyright (C) 2014 EntertainOBC Company
+"""
+    1Channel XBMC Addon
+    Copyright (C) 2014 tknorris
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -15,7 +14,7 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
- """
+"""
 import os
 import urllib
 import time
@@ -31,7 +30,7 @@ def enum(**enums):
 DB_TYPES = enum(MYSQL='mysql', SQLITE='sqlite')
 CSV_MARKERS = enum(FAVORITES='***FAVORITES***', SUBSCRIPTIONS='***SUBSCRIPTIONS***', BOOKMARKS='***BOOKMARKS***', EXT_SUBS='***EXTERNAL SUBSCRIPTIONS***')
 
-_1CH = Addon('plugin.video.EntertainOBCMovies')
+_1CH = Addon('plugin.video.1channel')
 
 class DB_Connection():
     def __init__(self):

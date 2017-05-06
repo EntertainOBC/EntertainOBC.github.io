@@ -1,6 +1,6 @@
- """
-    EntertainOBC Movies Addon
-    Copyright (C) 2014 EntertainOBC Company
+"""
+    1Channel XBMC Addon
+    Copyright (C) 2014 Bstrdsmkr, tknorris
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -14,7 +14,7 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
- """
+"""
 import json
 import xbmc
 import xbmcgui
@@ -109,7 +109,7 @@ class Service(xbmc.Player):
                     utils.log('Service: Threshold met. Marking item as watched', xbmc.LOGDEBUG)
                     video_title = self.meta['title'] if self.video_type == 'movie' else self.meta['TVShowTitle']
                     dbid = self.meta['DBID'] if 'DBID' in self.meta else ''
-                    builtin = 'RunPlugin(plugin://plugin.video.1channel/?mode=%s&imdbnum=%s&video_type=%s&title=%s&season=%s&episode=%s&year=%s&primewire_url=%s&dbid=%s&watched=%s)'
+                    builtin = 'RunPlugin(plugin://plugin.video.EntertainOBCMovies/?mode=%s&imdbnum=%s&video_type=%s&title=%s&season=%s&episode=%s&year=%s&primewire_url=%s&dbid=%s&watched=%s)'
                     xbmc.executebuiltin(builtin % (MODES.CH_WATCH, self.imdb_id, videotype, video_title.strip(), self.meta['season'], self.meta['episode'], self.meta['year'], self.primewire_url, dbid, True))
                 db_connection.clear_bookmark(self.primewire_url)
             elif playedTime > 0:

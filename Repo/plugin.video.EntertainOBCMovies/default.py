@@ -1,7 +1,6 @@
-
- """
-    EntertainOBC Movies Addon
-    Copyright (C) 2014 EntertainOBC Company
+"""
+    1Channel XBMC Addon
+    Copyright (C) 2012 Bstrdsmkr
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -15,7 +14,7 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
- """
+"""
 # pylint: disable=C0301
 # pylint: disable=F0401
 # pylint: disable=W0621
@@ -1938,7 +1937,7 @@ def main(argv=None):
     utils.log('Version: |%s| Queries: |%s|' % (_1CH.get_version(), _1CH.queries))
     utils.log('Args: |%s|' % (argv))
 
-    # don't process params that don't match our url exactly. (e.g. plugin://plugin.video.1channel/extrafanart)
+    # don't process params that don't match our url exactly. (e.g. plugin://plugin.video.EntertainOBCMovies/extrafanart)
     plugin_url = 'plugin://%s/' % (_1CH.get_id())
     if argv[0] != plugin_url:
         return

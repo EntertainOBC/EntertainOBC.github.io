@@ -536,7 +536,7 @@ class PW_Scraper():
 
                 # download the captcha image and save it to a file for use later
                 captchaimgurl = 'http://' + host + '/CaptchaSecurityImages.php'
-                captcha_save_path = xbmc.translatePath('special://userdata/addon_data/plugin.video.1channel/CaptchaSecurityImage.jpg')
+                captcha_save_path = xbmc.translatePath('special://userdata/addon_data/plugin.video.EntertainOBCMovies/CaptchaSecurityImage.jpg')
                 req = urllib2.Request(captchaimgurl)
                 host = urlparse.urlparse(self.base_url).hostname
                 req.add_header('User-Agent', USER_AGENT)

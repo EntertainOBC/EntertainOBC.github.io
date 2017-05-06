@@ -15,12 +15,12 @@
     <extension point="xbmc.service" library="service.py" start="startup">
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Browse Our Addons</summary>
-        <description>This Addon Is Provided For Our EntertainOBC Movies
-THIS ADDON IS NOT HOSTING HAVING MOVIES. THE THIRD-PARTY ADDONS DOES IT
+        <summary>Browse 1channel.ch</summary>
+        <description>
+        	EntertainOBC Movies Does Not Host Any Movies, Our Streamer Host Them Like Moviexk ETC
         </description>
         <platform>all</platform>
-        <website>NONE/</website>
-		<forum>REPO</forum>
+        <website>http://tvaddons.ag/</website>
+		<forum></forum>
     </extension>
 </addon>
