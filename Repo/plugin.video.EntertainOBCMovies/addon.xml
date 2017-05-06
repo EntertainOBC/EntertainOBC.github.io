@@ -1,53 +1,26 @@
-
-<!-- """
-    EntertainOBC Movies Addon
-    Copyright (C) 2014 EntertainOBC Company
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.EntertainOBCMovies" version="1.3.0" name="EntertainOBC Movies" provider-name="EntertainOBC Company">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-
-		<import addon="script.bubbles.artwork" version="1.2.0" />
-		<import addon="script.bubbles.binaries" version="1.2.0" />
-		<import addon="script.bubbles.icons" version="1.2.1" />
-		<import addon="script.bubbles.resources" version="1.2.1" />
-		<import addon="script.bubbles.skins" version="1.2.0" />
-		
-		<import addon="script.module.urlresolver" version="3.0.29" />
-		<import addon="script.module.metahandler" version="2.9.0" />
-		
-		<import addon="skin.bubbles.aeon.nox" version="1.3.0" optional="true" />
-		<import addon="plugin.video.quasar" version="0.9.75" optional="true" />
-		<import addon="script.trakt" version="0.9.75" optional="true" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="movies.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Watch Movies and Shows</summary>
-		<description lang="en">Watch Movies And TV Shows With The Movie Providers.</description>
-		<disclaimer lang="en">EntertainOBC Movies Are Trying To Make The Best Entertainment Addon. EntertainOBC Movies do not host, create, or distribute any of the content displayed in the addon.</disclaimer>
-		<platform>all</platform>
-		<license>GNU</license>
-		<website>https://entertainobc.github.io</website>
-		<forum>https://entertainobc.github.io</forum>
-		<assets>
-			<icon>icon.png</icon> 
-			<fanart>fanart.jpg</fanart> 
-		</assets>
-	</extension>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--suppress ALL -->
+<addon id="plugin.video.EntertainOBCMovies" version="2.5.72" name="EntertainOBC Movies" provider-name="EntertainOBC Company">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver" version="3.0"/>
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.metahandler" version="2.6.0" />
+        <import addon="script.module.myconnpy" version="1.1.6" />
+        <import addon="script.module.axel.downloader" version="0.2.0" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup">
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Browse Our Addons</summary>
+        <description>This Addon Is Provided For Our EntertainOBC Movies
+THIS ADDON IS NOT HOSTING HAVING MOVIES. THE THIRD-PARTY ADDONS DOES IT
+        </description>
+        <platform>all</platform>
+        <website>NONE/</website>
+		<forum>REPO</forum>
+    </extension>
 </addon>
