@@ -2,7 +2,6 @@ import xbmcaddon,os,requests,xbmc,xbmcgui,urllib,urllib2,re,xbmcplugin
 
 
 def CATEGORIES():
-   addDir3(name='TEST DIALOG', url='{"my_text":"My First Add-on[CR]Woohooo!!!","my_desc":"test description"}', mode='testing', folder=False, icon=os.path.join(art_path,'icon.png'), fanart=os.path.join(art_path,'fanart.jpg'))
    addDir3('Live Tv','https://e682ab385d0e9eba146f8407acc0383644a1d276.googledrive.com/host/0B88fGGARV1mmcjdJaG1rX1N2NXM/channels.txt',3,'http://original.livestream.com/filestore/logos/6a941358-6c7f-2ebf-e8ac-b05f4f338270-banner.png','','')
    addDir3('Movies','https://e682ab385d0e9eba146f8407acc0383644a1d276.googledrive.com/host/0B88fGGARV1mmcjdJaG1rX1N2NXM/movies.txt',4,'https://www.offerpop.com/wp-content/uploads/2014/08/Movies.jpg','','')
 
