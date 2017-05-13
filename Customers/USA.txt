@@ -15,4 +15,3 @@ name= DISCOVERY SCIENCE url= "http://theplayersklub.host:2095/live/leetv/leetv1/
 name= DIY url= "http://theplayersklub.host:2095/live/leetv/leetv1/650.ts" logo= ""
 name= E CHANNEL url= "http://theplayersklub.host:2095/live/leetv/leetv1/655.ts" logo= ""
 name= ESPN 2 url= "http://theplayersklub.host:2095/live/leetv/leetv1/616.ts" logo= ""
-name= 
