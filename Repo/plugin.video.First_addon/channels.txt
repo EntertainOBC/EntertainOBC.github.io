@@ -1,0 +1,5 @@
+name= Discovery HD url= "http://167.114.102.27/live/1BkJioeqcKRg3SDn6mE6TA/1456107220/a490ae75a3ec2acf16c9f592e889eb4c.m3u8" logo= "http://tvshows.ofw-ako.com/wp-content/uploads/2015/11/discovery.jpg"
+name= Vevo url= "http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch1/appleman.m3u8" logo= "http://www.vevo.com/img/vevo-icon-1200.png"
+name= Discovery url= "http://167.114.102.27/live/1BkJioeqcKRg3SDn6mE6TA/1456107220/a490ae75a3ec2acf16c9f592e889eb4c.m3u8" logo= "http://tvshows.ofw-ako.com/wp-content/uploads/2015/11/discovery.jpg"
+name= ESPN url= "http://167.114.102.27/live/R7S6ddtnJbhrWYWq7INIUg/1456107179/7b0ef842a6a1233a8a86a8533063a1a1.m3u8" logo= "https://pmcdeadline2.files.wordpress.com/2013/08/espn_logo__130813225927.jpg"
+name= History url= "http://167.114.102.27/live/bpDTnta60CYx1CXHhaYVcg/1456107226/d4a4950b7b7267417aa0b9733f30b6fe.m3u8" logo= "https://upload.wikimedia.org/wikipedia/en/2/20/HistoryTV18_logo.png"
