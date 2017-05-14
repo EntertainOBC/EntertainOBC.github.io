@@ -6,7 +6,7 @@ __addon__ = xbmcaddon.Addon()
 line0 = "Boba TV"
 line1 = "Please Remeber That We Are Trying To Make The Best Iptv Provider Join Our Group On Facebook To B3Connected"
 line2 = "https://www.facebook.com/groups/bobatvgroup/"
-line3 = "Please Click Ok To Close This Menu"
+line3 = "[COLOR red]Please Click Ok To Close This Menu[/COLOR]"
 
  
 xbmcgui.Dialog().ok(line0, line1, line2, line3)
