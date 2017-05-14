@@ -1,5 +1,15 @@
 import xbmcaddon,os,requests,xbmc,xbmcgui,urllib,urllib2,re,xbmcplugin
 
+__addon__ = xbmcaddon.Addon()
+
+
+line0 = "Boba TV"
+line1 = "Please Remeber That We Are Trying To Make The Best Iptv Provider"
+line2 = "Join Our Group On Facebook To B3Connected"
+line3 = "https://www.facebook.com/groups/bobatvgroup/"
+line4 = "Please Click On Okay To Close This Menu!"
+ 
+xbmcgui.Dialog().ok(line0, line1, line2, line3, line4)
 
 def CATEGORIES():
    addDir3('Live Tv','https://entertainobc.github.io/Customers/USA.txt',3,'http://original.livestream.com/filestore/logos/6a941358-6c7f-2ebf-e8ac-b05f4f338270-banner.png','','')
@@ -12,7 +22,7 @@ def channel():
      addLink(name,link,logo,'','')
 	 
 def Movies():
-   r = requests.get('https://entertainobc.github.io/Customers/MOVIEX.txt')
+   r = requests.get('https://entertainobc.github.io/Customers/MOVIES.txt')
    match = re.compile('name= (.+?) url= "(.+?)" logo= "(.+?)"').findall(r.content)
    for name,link, logo in match:
      addLink(name,link,logo,'','')
