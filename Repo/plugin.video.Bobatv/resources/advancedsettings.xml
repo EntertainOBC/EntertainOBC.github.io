@@ -1,5 +1,6 @@
 <advancedsettings>
   <cache>
-    <buffermode>2</buffermode>
+    <buffermode>1</buffermode>
+    <memorysize>52428800</memorysize>
   </cache>
 </advancedsettings>
