@@ -1,4 +1,5 @@
 name= url= "" logo= ""
+name= ABC HD url= "http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/16858.ts" logo= "http://static2.wikia.nocookie.net/__cb20110417213007/logopedia/images/4/4d/ABC_HD.png"
 name= A&E url= "http://theplayersklub.host:2095/live/leetv/leetv1/672.ts" logo= "http://www.nor-del.com/images/Channels/ae_us.png"
 name= ANIMAL PLANET url= "http://theplayersklub.host:2095/live/leetv/leetv1/671.ts" logo= "http://logos-download.com/wp-content/uploads/2016/06/Animal_Planet_logo.png"
 name= BBC AMERICA url= "http://theplayersklub.host:2095/live/leetv/leetv1/628.ts" logo= "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/BBC_America.svg/1200px-BBC_America.svg.png"
@@ -8,6 +9,7 @@ name= CBS url= "http://theplayersklub.host:2095/live/leetv/leetv1/669.ts" logo= 
 name= CBS NEWS url= "http://theplayersklub.host:2095/live/leetv/leetv1/653.ts" logo= "https://www.cbspressexpress.com/images/releases/docimages/2437/489202-195722/57cea53d764f638c9adb92df15004dfd.png"
 name= CINEMAX url= "http://theplayersklub.host:2095/live/leetv/leetv1/644.ts" logo= "https://www.cinemax.com/images/logos/cinemax-logo-black_filled__02-10-17.svg"
 name= CNN url= "http://theplayersklub.host:2095/live/leetv/leetv1/668.ts" logo= "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Cnn.svg/2000px-Cnn.svg.png"
+name= CP24 HD url= "http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/16821.ts" logo= "https://www.cp24.com/polopoly_fs/1.1560026.1386272764!/httpImage/image.png_gen/derivatives/landscape_620/image.png"
 name= COMEDY CENTRAL url= "http://theplayersklub.host:2095/live/leetv/leetv1/667.ts" logo= "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Comedy_Central_logo.svg/1476px-Comedy_Central_logo.svg.png"
 name= COOKING CHANNEL url= "http://theplayersklub.host:2095/live/leetv/leetv1/627.ts" logo= "http://www.dafont.com/forum/attach/orig/4/4/443970.png"
 name= THE CW url= "http://theplayersklub.host:2095/live/leetv/leetv1/666.ts" logo= "http://www.latinheat.com/wp-content/uploads/2014/05/cw-logo.jpg"
