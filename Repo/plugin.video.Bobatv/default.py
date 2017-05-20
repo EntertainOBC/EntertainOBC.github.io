@@ -1,3 +1,19 @@
+
+# This file is part of Foobar.
+
+#     Foobar is free software: you can redistribute it and/or modify
+#     it under the terms of the GNU General Public License as published by
+#     the Free Software Foundation, either version 3 of the License, or
+#     (at your option) any later version.
+
+#     Foobar is distributed in the hope that it will be useful,
+#     but WITHOUT ANY WARRANTY; without even the implied warranty of
+#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#     GNU General Public License for more details.
+
+#     You should have received a copy of the GNU General Public License
+#     along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+    
 import xbmcaddon,os,requests,xbmc,xbmcgui,urllib,urllib2,re,xbmcplugin
 
 __addon__ = xbmcaddon.Addon()
@@ -5,7 +21,7 @@ __addon__ = xbmcaddon.Addon()
 
 line0 = "Boba TV"
 line1 = "Please Remeber That We Are Trying To Make The Best Iptv Provider Join Our Group On Facebook To B3Connected"
-line2 = "https://www.facebook.com/groups/bobatvgroup/"
+line2 = "facebook.com/groups/groupbobatv/"
 line3 = "[COLOR red]Please Click Ok To Close This Menu[/COLOR]"
 
  
