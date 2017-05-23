@@ -20,7 +20,7 @@ name= DESTINATION AMERICA url= "http://theplayersklub.host:2095/live/leetv/leetv
 name= DISCOVERY SCIENCE url= "http://iptv.iptvthebest.net:15000/live/a6efdd3b7c0932f/906d35040707c96/20450.ts" logo= "#"
 name= DIY NETWORK url= "http://theplayersklub.host:2095/live/leetv/leetv1/650.ts" logo= "#"
 name= E! CHANNEL url= "http://theplayersklub.host:2095/live/leetv/leetv1/655.ts" logo= "#"
-name= ESPN 1 url= "http://iptv.iptvthebest.net:15000/live/a6efdd3b7c0932f/906d35040707c96/20444.tss" logo= "#"
+name= ESPN url= "http://iptv.iptvthebest.net:15000/live/a6efdd3b7c0932f/906d35040707c96/20445.ts" logo= "#"
 name= ESPN 2 url= "http://theplayersklub.host:2095/live/leetv/leetv1/616.ts" logo= "#"
 name= EURO NEWS url= "http://iptv.iptvthebest.net:15000/live/a6efdd3b7c0932f/906d35040707c96/20440.ts" logo= "#"
 name= FOOD NETWORK url= "http://theplayersklub.host:2095/live/leetv/leetv1/626.ts" logo= "#"
