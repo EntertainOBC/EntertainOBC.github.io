@@ -24,24 +24,27 @@ line1 = "Please Remeber That We Are Trying To Make The Best Iptv Provider Join O
 line2 = "facebook.com/groups/groupbobatv/"
 line3 = "[COLOR red]Please Click Ok To Close This Menu[/COLOR]"
 
- 
+Code = xbmcaddon.Addon().getSetting("code")
+txt  = '.txt'
+website = 'http://entertainobc.github.io/Customers/'
+
+combinedcode = website + Code + txt
+
+
 xbmcgui.Dialog().ok(line0, line1, line2, line3)
 
 def CATEGORIES():
-   addDir3('Live Tv','https://entertainobc.github.io/Customers/USA.txt',3,'http://original.livestream.com/filestore/logos/6a941358-6c7f-2ebf-e8ac-b05f4f338270-banner.png','','')
-   addDir3('Movies','https://entertainobc.github.io/Customers/MOVIES.txt',4,'https://www.offerpop.com/wp-content/uploads/2014/08/Movies.jpg','','')
+   addDir3('IF YOUR CODE IS INCORRECT, TV WILL GIVE AN ERROR','',4,'','','')
+   addDir3('Live Tv',combinedcode,3,'http://original.livestream.com/filestore/logos/6a941358-6c7f-2ebf-e8ac-b05f4f338270-banner.png','','')
+
 
 def channel():
-   r = requests.get('https://entertainobc.github.io/Customers/USA.txt')
+   r = requests.get(combinedcode)
    match = re.compile('name= (.+?) url= "(.+?)" logo= "(.+?)"').findall(r.content)
    for name,link, logo in match:
      addLink(name,link,logo,'','')
 	 
-def Movies():
-   r = requests.get('https://entertainobc.github.io/Customers/MOVIES.txt')
-   match = re.compile('name= (.+?) url= "(.+?)" logo= "(.+?)"').findall(r.content)
-   for name,link, logo in match:
-     addLink(name,link,logo,'','')
+
 	 
 def addLink(name,url,image,urlType,fanart):
         ok=True
@@ -157,7 +160,9 @@ elif mode==1:
 elif mode==3:
         channel()
 elif mode==4:
-        Movies()
+        sidemessage()
+
+
 
         
 
