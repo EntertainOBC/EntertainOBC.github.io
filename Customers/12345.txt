@@ -21,6 +21,7 @@ name= DISCOVERY url= "http://theplayersklub.host:2095/live/simplycaz/simplycaz/6
 name= DISCOVERY SCIENCE url= "http://theplayersklub.host:2095/live/simplycaz/simplycaz/651.ts" logo= "#"
 name= DIY NETWORK url= "http://theplayersklub.host:2095/live/simplycaz/simplycaz/650.ts" logo= "#"
 name= E! CHANNEL url= "http://theplayersklub.host:2095/live/simplycaz/simplycaz/655.ts" logo= "#"
+name= ESPN 1 url= "http://clientportal.link:8080/live/baki1/123456/9023.m3u8" logo= "#"
 name= ESPN 2 url= "http://theplayersklub.host:2095/live/simplycaz/simplycaz/616.ts" logo= "#"
 name= FOOD NETWORK url= "http://theplayersklub.host:2095/live/simplycaz/simplycaz/626.ts" logo= "#"
 name= FOX url= "http://theplayersklub.host:2095/live/simplycaz/simplycaz/665.ts" logo= "#"
