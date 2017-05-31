@@ -1,7 +1,7 @@
 name= IF ANY CHANNEL IS NOT WORKING url= "#" logo= "#"
 name= PLEASE TELL US IN OUR FORUM url= "#" logo= "#"
 name= THIS ACCOUNT IS FREE url= "#" logo= "#"
-name= GO PREMIUM TODAY FOR $10 url= "#" logo= "#"
+name= GO PREMIUM TODAY FOR $10 PER MONTH url= "#" logo= "#"
 name= WELCOME SIR, Arnold Hope You Enjoy This TV url= "#" logo= "#"
 name= A&E url= "http://theplayersklub.host:2095/live/simplycaz/simplycaz/672.ts" logo= "#"
 name= ABC NEWS url= "http://ipsatpro.info:8000/live/V5dwnpt8iS/2vis7Nqnpl/1466.ts" logo= "#"
