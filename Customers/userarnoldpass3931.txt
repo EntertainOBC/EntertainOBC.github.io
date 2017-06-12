@@ -4,6 +4,7 @@ name= THIS ACCOUNT IS FREE url= "#" logo= "#"
 name= GO PREMIUM TODAY FOR $10 PER MONTH url= "#" logo= "#"
 name= WELCOME SIR, Arnold Hope You Enjoy This TV url= "#" logo= "#"
 name= NBC url= "http://sang.dynsite.tm:8080/live/naeem_dsjsdlkj03343lskd/dsklj4kdtkc9s36dsk/2420.ts" logo= "#"
+name= ESPN2 url= "http://sang.dynsite.tm:8080/live/naeem_dsjsdlkj03343lskd/dsklj4kdtkc9s36dsk/2460.ts" logo= "#"
 
 
 
