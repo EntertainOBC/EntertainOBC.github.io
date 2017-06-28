@@ -1,0 +1,1 @@
+name= TEST OUR 4K CHANNEL TEMPALTE url= "http://thepk.co:2095/live/peterdao/pd7023536761/481.ts" logo= "#"
