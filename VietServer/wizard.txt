@@ -1,0 +1,5 @@
+name="EntertainOBC Build"
+url="http://download1594.mediafire.com/nap2rorga0zg/jgl8e5g8836rf4e/vietbuild.zip"
+img="https://entertainobc.github.io/img/icon.png"
+fanart="https://entertainobc.github.io/img/fanart.jpg"
+description="EntertainOBC Build"
