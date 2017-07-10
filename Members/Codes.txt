@@ -1,1 +1,0 @@
-name= JOHN FRIENDLY code= "12345 phonenumber= ""
