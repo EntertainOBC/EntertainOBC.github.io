@@ -1,7 +1,7 @@
 name= $300 FOR THIS BOX url= "#" logo= "#"
 name= IF YOUR INTERESTED CONTACT YOUR DRIVER url= "#" logo= "#"
 name= WELCOME PASSENGER url= "#" logo= "#"
-name= HOPE YOU ENJOY YOUR RIDE logo= "#"
+name= HOPE YOU ENJOY YOUR RIDE logo= "#" logo= "#"
 name= AND HOPE YOU ENJOY THIS IN-CAR TV url= "#" logo= "#"
 name= A&E url= "http://thepk.co:2095/live/peterdao/pd7023536761/267.ts" logo= "#"
 name= ABC url= "http://thepk.co:2095/live/peterdao/pd7023536761/263.ts" logo= "#"
