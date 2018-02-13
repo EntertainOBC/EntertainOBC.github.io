@@ -1,5 +1,5 @@
 name="EntertainOBC Build"
-url="http://download1074.mediafire.com/ccnt7a1thcug/6nsvj896whj8df4/build.zip"
+url="http://download1875.mediafire.com/1zj6kk0gyztg/i9ju3agj8u7uv73/build.zip"
 img="https://entertainobc.github.io/img/icon.png"
 fanart="https://entertainobc.github.io/img/fanart.jpg"
 description="EntertainOBC Build"
