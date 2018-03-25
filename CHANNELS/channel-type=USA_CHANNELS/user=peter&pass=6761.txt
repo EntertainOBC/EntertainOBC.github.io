@@ -1,7 +1,7 @@
 name= IF ANY CHANNEL DOESN'T WORK PLEASE url= "#" logo= "#"
 name= REPORT TO OUR DISCORD SERVER url= "#" logo= "#"
-name= WELCOME PETER DAO url= "#" logo= "#"
 name= SECTION : USA TV url= "#" logo= "#"
+name= WELCOME PETER DAO url= "#" logo= "#"
 name= HOPE YOU ENJOY YOUR PREMIUM PACKAGE url= "#" logo= "#"
 name= A&E url= "http://thepk.co:2086/live/bryandao/7023536761/267.ts" logo= "#"
 name= ABC url= "http://thepk.co:2086/live/bryandao/7023536761/263.ts" logo= "#"
