@@ -75,7 +75,7 @@ name= HBO BACKUP url= "http://thepk.co:2086/live/bryandao/7023536761/1915.ts" lo
 name= HBO COMEDY url= "http://thepk.co:2086/live/bryandao/7023536761/173.ts" logo= "#"
 name= HGTV url= "http://thepk.co:2086/live/bryandao/7023536761/302.ts" logo= "#"
 name= HISTORY url= "http://thepk.co:2086/live/bryandao/7023536761/251.ts" logo= "#"
-name= HUNTING & FISHING url= "http://thepk.co:2086/live/bryandao/7023536761/305.ts" logo= "#"
+name= HUNTING FISHING url= "http://thepk.co:2086/live/bryandao/7023536761/305.ts" logo= "#"
 name= IFC url= "http://thepk.co:2086/live/bryandao/7023536761/611.ts" logo= "#"
 name= INVESTIGATION DISCOVERY url= "http://thepk.co:2086/live/bryandao/7023536761/339.ts" logo= "#"
 name= ION TELEVISION url= "http://thepk.co:2086/live/bryandao/7023536761/1762.ts" logo= "#"
