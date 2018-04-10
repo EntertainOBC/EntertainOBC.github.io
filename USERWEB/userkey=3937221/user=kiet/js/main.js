@@ -8,13 +8,13 @@ var checkLoginPass = function () {
     var login = document.getElementById("login").value;
     var pass = document.getElementById("password").value;
     if (login === "peter" && pass === "6761") {
-        window.location.replace("http://entertainobc.github.io/USERWEB/userkey=3937221/user=peter/index.html");
+        window.location.replace("http://entertainobc.github.io");
+    }
+    if (login === "connor" && pass === "6314") {
+        window.location.replace("http://entertainobc.github.io");
     }
     if (login === "bryan" && pass === "6631") {
-        window.location.replace("http://entertainobc.github.io/USERWEB/userkey=3937221/user=bryan/index.html");
-    }
-    if (login === "kiet" && pass === "6917") {
-        window.location.replace("http://entertainobc.github.io/USERWEB/userkey=3937221/user=kiet/index.html");
+        window.location.replace("http://www.google.com");
     }
     else {
         //do something else;

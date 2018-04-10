@@ -1,2 +1,3 @@
 user= "peter" pass= "6761" name= "PETER DAO" exp= "12-10-2018"
 user= "bryan" pass= "6631" name= "BRYAN DAO" exp= "11-3-2019"
+user= "kiet" pass= "6917" name= "" exp= "TRIAL"
