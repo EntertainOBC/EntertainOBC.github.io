@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.crypiticalsrepo" name="[COLOR blue]Crypiticals Repository[/COLOR]" version="4.0.1" provider-name="OptimazesGrow">
+	<extension point="xbmc.addon.repository" name="Crypiticals Repository">
+		<info compressed="false">http://streamhelp.org/demo/addons.xml</info>
+		<checksum>http://streamhelp.org/demo/addons.xml.md5</checksum>
+		<datadir zip="true">http://streamhelp.org/demo/</datadir>
+	</extension>
+	  <extension point="xbmc.addon.metadata">
+		<summary lang="en">Crypiticals Repository</summary>
+		<description lang="en">Where all the Crypiticals Live.</description>
+		<platform>all</platform>
+		<website>https://entertainobc.github.io</website>
+	  <assets>
+		<icon>icon.png</icon>
+	  </assets>
+	  </extension>
+</addon>
