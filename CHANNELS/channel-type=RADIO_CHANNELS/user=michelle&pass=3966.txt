@@ -1,7 +1,7 @@
 name= IF ANY CHANNEL DOESN'T WORK PLEASE url= "#" logo= "#" 
 name= REPORT TO OUR DISCORD SERVER url= "#" logo= "#" 
 name= SECTION : RADIO url= "#" logo= "#" 
-name= WELCOME PETER DAO url= "#" logo= "#" 
+name= WELCOME MICHELLE DAO url= "#" logo= "#" 
 name= 977 THE 80S url= "http://7619.live.streamtheworld.com/977_80_SC?.mp3" logo= "#" 
 name= 2000 FM - HARD ROCK url= "http://107.155.111.170:8110" logo= "#" 
 name= ABSOLUTE 00'S url= "http://icy-e-bab-04-cr.sharp-stream.com:80/absolute00s.mp3" logo= "#" 
