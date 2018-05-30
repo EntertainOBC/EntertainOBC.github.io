@@ -1,6 +1,6 @@
 name="[KODI 17] Crypticialz Matrix"
 url=""
 img="https://ia601504.us.archive.org/10/items/BuildIcon_201805/Untitled-1s.png"
-fanart=""
+fanart="https://ia801508.us.archive.org/20/items/default_20180530/default.jpg"
 description="Developed By OptimazesGrow New Build [5/31/2018]"
 version="1.5"
