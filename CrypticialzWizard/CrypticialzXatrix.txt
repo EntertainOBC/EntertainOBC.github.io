@@ -1,5 +1,5 @@
 name="[KODI 17] Crypticialz Xatrix"
-url="https://archive.org/download/build_20180530_1733/build.zip"
+url="https://archive.org/download/build_20180625/build.zip"
 img="https://ia601504.us.archive.org/10/items/BuildIcon_201805/Untitled-1s.png"
 fanart="https://ia801508.us.archive.org/20/items/default_20180530/default.jpg"
 description="Developed By OptimazesGrow New Build [5/30/2018]"
