@@ -1,5 +1,0 @@
-name="EntertainOBC Build"
-url="https://archive.org/download/build_20180625/build.zip"
-img="https://entertainobc.github.io/img/icon.png"
-fanart="https://entertainobc.github.io/img/fanart.jpg"
-description="EntertainOBC Build"
