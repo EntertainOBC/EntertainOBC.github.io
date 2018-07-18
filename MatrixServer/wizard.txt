@@ -1,0 +1,5 @@
+name="Matrix Build [Crypticialz Kodi]"
+url="https://archive.org/download/build_201807/build.zip"
+img="https://archive.org/download/matrix_20180718/matrix.png"
+fanart="https://ia801508.us.archive.org/20/items/default_20180530/default.jpg"
+description="Official Build By Crypticialz Kodi"
