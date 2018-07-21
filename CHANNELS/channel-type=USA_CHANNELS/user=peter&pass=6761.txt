@@ -1,7 +1,7 @@
 name= IF ANY CHANNEL DOESN'T WORK PLEASE url= "#" logo= "#"
 name= REPORT TO OUR DISCORD SERVER url= "#" logo= "#"
 name= SECTION : USA TV url= "#" logo= "#"
-name= TOTAL CHANNEL : 93 CHANNELS url= "#" logo= "#"
+name= TOTAL CHANNEL : 83 CHANNELS url= "#" logo= "#"
 name= WELCOME PETER DAO url= "#" logo= "#"
 name= HOPE YOU ENJOY YOUR PREMIUM PACKAGE url= "#" logo= "#"
 name= A&E HD url= "http://vapi.vaders.tv/play/2463.m3u8?token=eyJ1c2VybmFtZSI6ImJyeWFuZGFvIiwicGFzc3dvcmQiOiJzanFhdWN6cnZmIn0=" logo= "http://vaders.tv/logos/A%26E%20HD.png"
