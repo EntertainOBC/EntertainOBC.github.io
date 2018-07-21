@@ -1,5 +1,5 @@
 name="Xatrix Build [Crypticialz Kodi]"
-url="https://archive.org/download/build_20180721/build.zip"
+url="https://archive.org/download/build_20180721_0644/build.zip"
 img="https://ia601507.us.archive.org/34/items/Untitled1_201807/Untitled-1.png"
 fanart="https://ia801508.us.archive.org/20/items/default_20180530/default.jpg"
 description="Official Build By Crypticialz Kodi"
