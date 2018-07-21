@@ -8,7 +8,7 @@ name= A&E HD url= "http://vapi.vaders.tv/play/2463.m3u8?token=eyJ1c2VybmFtZSI6Im
 name= ABC HD url= "http://vapi.vaders.tv/play/2435.m3u8?token=eyJ1c2VybmFtZSI6ImJyeWFuZGFvIiwicGFzc3dvcmQiOiJzanFhdWN6cnZmIn0=" logo= "#"
 name= AMC HD url= "http://vapi.vaders.tv/play/2436.m3u8?token=eyJ1c2VybmFtZSI6ImJyeWFuZGFvIiwicGFzc3dvcmQiOiJzanFhdWN6cnZmIn0=" logo= "#"
 name= AXS TV HD url= "http://vapi.vaders.tv/play/74788.m3u8?token=eyJ1c2VybmFtZSI6ImJyeWFuZGFvIiwicGFzc3dvcmQiOiJzanFhdWN6cnZmIn0=" logo= "#"
-name= "American Heroes Channel HD" url= "http://vapi.vaders.tv/play/74790.m3u8?token=eyJ1c2VybmFtZSI6ImJyeWFuZGFvIiwicGFzc3dvcmQiOiJzanFhdWN6cnZmIn0=" logo= "#"
+name= American Heroes Channel HD url= "http://vapi.vaders.tv/play/74790.m3u8?token=eyJ1c2VybmFtZSI6ImJyeWFuZGFvIiwicGFzc3dvcmQiOiJzanFhdWN6cnZmIn0=" logo= "#"
 name= Animal Planet HD url= "http://vapi.vaders.tv/play/2437.m3u8?token=eyJ1c2VybmFtZSI6ImJyeWFuZGFvIiwicGFzc3dvcmQiOiJzanFhdWN6cnZmIn0=" logo= "#"
 name= BBC America HD url= "http://vapi.vaders.tv/play/2456.m3u8?token=eyJ1c2VybmFtZSI6ImJyeWFuZGFvIiwicGFzc3dvcmQiOiJzanFhdWN6cnZmIn0=" logo= "#"
 name= BET HD url= "http://vapi.vaders.tv/play/8246.m3u8?token=eyJ1c2VybmFtZSI6ImJyeWFuZGFvIiwicGFzc3dvcmQiOiJzanFhdWN6cnZmIn0=" logo= "#"
