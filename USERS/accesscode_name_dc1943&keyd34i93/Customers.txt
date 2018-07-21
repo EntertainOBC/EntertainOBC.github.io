@@ -1,4 +1,4 @@
 user= "peter" pass= "6761" name= "PETER DAO" exp= "2018-07-12"
-user= "michelle" pass= "3966" name= "MICHELLE DAO" exp= "2018-07-12"
 user= "bryan" pass= "6631" name= "BRYAN DAO" exp= "2018-09-12"
+user= "michelle" pass= "3966" name= "MICHELLE DAO" exp= "2018-07-12"
 user= "kiet" pass= "6917" name= "KIET" exp= "2018-11-12"
