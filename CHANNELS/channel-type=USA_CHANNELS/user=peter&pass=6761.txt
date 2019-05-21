@@ -29,6 +29,7 @@ name= US: Disney Junior HD url= "http://89.187.164.103:65172/disneyjr_hd/index.m
 name= US: Disney XD HD url= "http://89.187.164.103:65172/disneyxd_hd/index.m3u8" logo= "#"
 name= US: DIY Network HD url= "http://89.187.164.103:65172/diy_hd/index.m3u8" logo= "#"
 name= US: E! HD url= "http://89.187.164.103:65172/e!_hd/index.m3u8" logo= "#"
+name= US: ESPN HD url= "http://89.187.164.103:65172/usa_espnhd_hd/index.m3u8" logo= "#"
 name= US: Food Network HD url= "http://89.187.164.103:65172/foodnetwork_hd/index.m3u8" logo= "#"
 name= US: FOX Business HD url= "http://89.187.164.103:65172/foxbusiness_hd/index.m3u8" logo= "#"
 name= US: Fox News HD url= "http://89.187.164.103:65172/foxnews_hd/index.m3u8" logo= "#"
