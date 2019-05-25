@@ -1,6 +1,5 @@
 name= Vortex Streams url= "#" logo= "#"
 name= SECTION : ALL url= "#" logo= "#"
-name= US: ABC 13 (LAS VEGAS) HD url= "http://watch.gotdark.com:80/Username124/Password1234/26932" logo= "#"
 name= US: ABC HD url= "http://m3u.hydr0.io:25461/alazare6190/3YFONHEzkK/2" logo= "#"
 name= US: NBC HD url= "http://m3u.hydr0.io:25461/alazare6190/3YFONHEzkK/348" logo= "#"
 name= US: CBS HD url= "http://m3u.hydr0.io:25461/alazare6190/3YFONHEzkK/6" logo= "#"
