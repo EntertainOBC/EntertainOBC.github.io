@@ -1,4 +1,3 @@
 user= "katherine" pass= "8528" name= "Katherine Le" exp= "10-29-2021"
-user= "peter" pass= "6761" name= "Peter Dao" exp= "10-03-2019"
-user= "michelle" pass= "5949" name= "Michelle Dao" exp= "10-29-2021"
+
 
